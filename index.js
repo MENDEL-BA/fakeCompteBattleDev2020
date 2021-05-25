@@ -14,7 +14,6 @@ function ContestResponse(){
 	 for (var i=0; i < input.length; i++) {
 	     if(input[i].length > 5) {
              let rev = input[i].split('').reverse().join('');
-             //console.log(rev);
              tabOfFakeCompteTwitter.push(rev.substr(0,5));
 	     }
 
